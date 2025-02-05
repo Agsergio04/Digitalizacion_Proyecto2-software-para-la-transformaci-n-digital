@@ -1,4 +1,4 @@
-# Propuesta de Proyecto: Gestor de Tareas Personal
+# Proyecto: Gestor de Tareas Personal
 
 ## Objetivo
 
