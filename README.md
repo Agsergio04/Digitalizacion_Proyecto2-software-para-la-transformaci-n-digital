@@ -36,11 +36,10 @@ Diseñar y desarrollar un software funcional que permita a los usuarios:
 
 - **Backend**:
   - Node.js con Express para manejar las solicitudes del servidor.
-  - MongoDB para el almacenamiento de datos, aprovechando su flexibilidad en la gestión de documentos.
+  - PostgreSQL para el almacenamiento de datos, aprovechando su flexibilidad en la gestión de documentos.
 
 - **Integraciones**:
   - API de GitHub para autenticación y sincronización de datos de proyectos.
-  - Servicios de notificaciones push para alertas de tareas y eventos.
 
 ## Consideraciones de Seguridad y Almacenamiento en la Nube
 
