@@ -84,4 +84,19 @@ El **Gestor de Tareas** es una aplicación web full-stack diseñada para crear, 
 ## **Cómo Probar el Proyecto**  
 1. Clonar el repositorio:  
    ```bash  
-   git clone https://github.com/tu-usuario/gestor-tareas  
+   git clone https://github.com/tu-usuario/gestor-tareas
+   ```
+2.Vas a tu cmd y coges la ruta del proyecto 
+```bash
+cd C:\Users\TuUsuario\Desktop\Digi_segundo_Trimestre
+```
+2.2 Si es tu primera vez necesitas installar las dependencias
+```bash
+npm install express body-parser
+```
+
+3. Tras ello ejecuta el comando para inicar el servidor
+```bash
+node app.js
+```
+Para dejar de ejecutarlo puedes en windows darle Control + C o finalizar la tarea del servidor 
