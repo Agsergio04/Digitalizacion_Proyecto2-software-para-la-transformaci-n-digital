@@ -1,0 +1,33 @@
+<!-- tasks.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Lista de Tareas</h1>
+    <form id="taskForm">
+        <input type="text" id="taskTitle" placeholder="Título" required>
+        <textarea id="taskDescription" placeholder="Descripción"></textarea>
+        <button type="submit">Añadir Tarea</button>
+    </form>
+    <ul id="taskList"></ul>
+    <div id="editForm" style="display: none;">
+        <h2>Editar Tarea</h2>
+        <input type="text" id="editTitle" placeholder="Título" required>
+        <textarea id="editDescription" placeholder="Descripción"></textarea>
+        <label>
+            <input type="checkbox" id="editCompleted"> Completada
+        </label>
+        <button id="saveEdit">Guardar Cambios</button>
+        <button id="cancelEdit">Cancelar</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
