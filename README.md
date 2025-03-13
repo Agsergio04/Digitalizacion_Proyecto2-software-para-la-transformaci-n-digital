@@ -85,3 +85,8 @@ El **Gestor de Tareas** es una aplicación web full-stack diseñada para crear, 
 1. Clonar el repositorio:  
    ```bash  
    git clone https://github.com/tu-usuario/gestor-tareas  
+    ```
+2. Vas hacia la ruta donde tengas en proyecto y ejecutas
+   ```bash
+   node app.js
+   ```
