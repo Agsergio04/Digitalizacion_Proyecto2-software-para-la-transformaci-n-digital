@@ -5,33 +5,6 @@
 ## **Introducción**  
 El **Gestor de Tareas** es una aplicación web full-stack diseñada para crear, listar y filtrar tareas. Su arquitectura sigue el patrón MVC (Modelo-Vista-Controlador), utilizando tecnologías modernas para garantizar funcionalidad y simplicidad.  
 
-# Digital Transformation Task Manager
-
-An open‑source task management system designed to streamline digital workflows within organizations, aligning with strategic digital transformation goals.  
-
-## 🚀 Features  
-- **Task Creation & Management**: Create, assign, and track tasks in real time.  
-- **Filtering & Sorting**: Organize tasks by status, priority, or assignee.  
-- **JSON‑Based Storage**: Lightweight, portable data format.  
-- **Scalable Architecture**: Easily extend with plugins or integrate via API.  
-
-## 📈 Strategic Alignment  
-This software addresses the need for digital task orchestration to boost operational efficiency and cross‑department collaboration—a key strategic objective in modern digital transformation initiatives. :contentReference[oaicite:0]{index=0}  
-
-## 🛠️ Installation  
-
-### Prerequisites  
-- [Node.js](https://nodejs.org/) v14+  
-- npm or yarn  
-
-### Local Setup  
-```bash
-git clone https://github.com/Agsergio04/Digitalizacion_Proyecto2-software-para-la-transformaci-n-digital.git
-cd Digitalizacion_Proyecto2-software-para-la-transformaci-n-digital
-npm install      # or yarn install
-npm start        # or yarn start
-```
-
 ### **Tecnologías Utilizadas**  
 - **Frontend**:  
   - HTML5 y CSS3 para la estructura y estilos.  
