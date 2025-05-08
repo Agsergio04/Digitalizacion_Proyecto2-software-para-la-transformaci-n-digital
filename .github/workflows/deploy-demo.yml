@@ -1,0 +1,11 @@
+name: Deploy to Streamlit
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -r requirements.txt
+      - run: streamlit run src/app/main.py
+        env:
+          STREAMLIT_SERVER_PORT: 8501
