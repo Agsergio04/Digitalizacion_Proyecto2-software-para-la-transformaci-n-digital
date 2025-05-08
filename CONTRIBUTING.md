@@ -119,6 +119,6 @@ For significant proposals or questions, open an issue or contact the maintainers
 Thank you for helping improve this software for digital transformation. We look forward to your contributions!
 
 ```perl
-Would you like help generating the `README.md` or `preguntas.md` next?
+Would you like help generating the `README.md` next?
 ```
 
