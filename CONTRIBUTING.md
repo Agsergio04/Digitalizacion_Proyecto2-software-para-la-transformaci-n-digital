@@ -29,7 +29,7 @@ Use a meaningful branch name related to your change:
 ```bash
  git checkout -b feature/your-feature-name
 ```
-##4. Make Your Changes
+# 4. Make Your Changes
 Follow the coding conventions and document your code using:
 
 JSDoc for JavaScript
@@ -44,7 +44,7 @@ Include unit tests if appropriate
 
 Update documentation (README, wiki, etc.) where relevant
 
-###5. Commit Your Changes
+## 5. Commit Your Changes
 Use clear, descriptive commit messages:
 ```bash
 git commit -m "Add: Feature to generate PDF reports"
@@ -54,13 +54,13 @@ git commit -m "Add: Feature to generate PDF reports"
 git push origin feature/your-feature-name
 ```
 
-###7. Push and Create a Pull Request
+## 7. Push and Create a Pull Request
 ```bash
 git push origin feature/your-feature-name
 ```
 Then, open a pull request to the main branch of this repository with a detailed description of your changes.
 
-💡 Types of Contributions
+### 💡 Types of Contributions
 You can contribute in various ways:
 
 New Features: Add tools or modules that enhance functionality
@@ -75,7 +75,7 @@ Performance Improvements: Optimize code for better performance
 
 UX Enhancements: Improve usability of online demos (e.g., via Streamlit, Hugging Face, Gradio)
 
-###📖 Documentation and Standards
+### 📖 Documentation and Standards
 The README.md contains deployment instructions, usage examples, and project motivation.
 
 A wiki exists for deeper technical documentation and devlog.
