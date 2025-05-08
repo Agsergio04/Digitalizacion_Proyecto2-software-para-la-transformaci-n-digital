@@ -28,86 +28,107 @@ El **Gestor de Tareas** es una aplicación web full-stack diseñada para crear, 
 
 ## **Preguntas y Respuestas**  
 
-# Phase 2: Utility & Application Analysis
+# Fase 2: Análisis de Utilidad y Aplicación
 
-## 6a) Strategic Objectives  
-**Q1. What strategic objectives does the software address?**  
-- Digitizes manual task workflows to improve speed and accuracy.  
-- Aligns daily operations with corporate digitalization goals. :contentReference[oaicite:5]{index=5}  
+## 6a) Objetivos Estratégicos  
+**P1. ¿Qué objetivos estratégicos aborda el software?**  
+- Digitaliza los flujos de trabajo manuales para mejorar la velocidad y la precisión.  
+- Alinea las operaciones diarias con los objetivos corporativos de digitalización.  
 
-**Q2. How does it align with the digitalization strategy?**  
-- Provides metrics and dashboards for data‑driven decision making. :contentReference[oaicite:6]{index=6}  
+**P2. ¿Cómo se alinea con la estrategia de digitalización?**  
+- Ofrece métricas y paneles de control para la toma de decisiones basada en datos.  
 
-## 6b) Business & Communication Areas  
-**Which areas benefit most?**  
-- **Production**: Real‑time task tracking reduces bottlenecks. :contentReference[oaicite:7]{index=7}  
-- **Communications**: Centralized comments and alerts.  
+---
 
-**Operational impact?**  
-- Faster hand‑offs, reduced email chains by 60%. :contentReference[oaicite:8]{index=8}  
+## 6b) Áreas de Negocio y Comunicaciones  
+**P3. ¿Qué áreas se benefician más?**  
+- **Producción**: Seguimiento de tareas en tiempo real para reducir cuellos de botella.  
+- **Comunicación**: Comentarios y alertas centralizadas.  
 
-## 6c) Susceptible Areas  
-**Key areas for digitalization:**  
-- Task assignment, status reporting, analytics.  
+**P4. ¿Cuál es el impacto operativo?**  
+- Entregas más rápidas; reducción del 60 % en cadenas de correo internas.  
 
-**Expected improvements:**  
-- 50% reduction in overdue tasks.  
+---
 
-## 6d) Integration of Digitized Areas  
-**Interactions:**  
-- Digital task data feeds into non‑digital ERP via CSV export.  
+## 6c) Áreas Susceptibles de Digitalización  
+**P5. ¿Cuáles son las áreas clave para digitalizar?**  
+- Asignación de tareas, informes de estado, analítica.  
 
-**Proposals:**  
-- Build webhook connectors for real‑time sync.  
+**P6. ¿Cómo mejorará la digitalización esas áreas?**  
+- Reducción del 50 % en tareas vencidas.  
 
-## 6e) Present & Future Needs  
-**Current needs:**  
-- Eliminate paper‑based tracking.  
+---
 
-**Future needs:**  
-- AI‑driven priority recommendations.  
+## 6d) Encaje de Áreas Digitalizadas  
+**P7. ¿Cómo interactúan las áreas digitalizadas con las no digitalizadas?**  
+- Los datos de tareas digitales se exportan en CSV para el ERP tradicional.  
 
-## 6f) Enabling Technologies  
-**Used technologies:**  
-- Node.js/Express backend; JavaScript frontend. :contentReference[oaicite:9]{index=9}  
+**P8. ¿Qué mejoras propondrías?**  
+- Desarrollar conectores webhook para sincronización en tiempo real.  
 
-**Benefits:**  
-- Rapid iteration; cross‑platform support.  
+---
 
-## 6g) Security Gaps  
-**Potential gaps:**  
-- Unauthenticated API access.  
+## 6e) Necesidades Presentes y Futuras  
+**P9. ¿Qué necesidades actuales resuelve el software?**  
+- Elimina el seguimiento en papel.  
 
-**Mitigations:**  
-- JWT authentication; periodic security audits.  
+**P10. ¿Qué necesidades futuras podría abordar?**  
+- Recomendaciones de prioridad impulsadas por IA.  
 
-## 6h) Data Handling  
-**Data management:**  
-- JSON files with schema validation.  
+---
 
-**Quality assurance:**  
-- Input validation and unit tests.  
+## 6f) Tecnologías Habilitadoras  
+**P11. ¿Qué tecnologías has empleado?**  
+- Backend con Node.js/Express; frontend con JavaScript.  
 
-## 6i) System Integration  
-**Integration examples:**  
-- Export tasks to Excel/ERP.  
+**P12. ¿Qué beneficios aportan?**  
+- Iteración rápida; compatibilidad multiplataforma.  
 
-**Interoperability improvements:**  
-- RESTful API with OAuth2.  
+---
 
-## 6j) Documentation of Changes  
-**Change logs:**  
-- All changes logged in `docs/devlog.md`.  
+## 6g) Brechas de Seguridad  
+**P13. ¿Qué posibles brechas existen?**  
+- Acceso a la API sin autenticación.  
 
-**Devlog usage:**  
-- Weekly LinkedIn posts linked from wiki.  
+**P14. ¿Qué medidas mitigarían estos riesgos?**  
+- Autenticación JWT; auditorías de seguridad periódicas.  
 
-## 6k) Human Resources  
-**Key skills:**  
-- JavaScript, API design, JSON schema.  
+---
 
-**Training strategies:**  
-- Onboarding guide in wiki; monthly code‑review workshops.  
+## 6h) Tratamiento de Datos y Análisis  
+**P15. ¿Cómo se gestionan los datos?**  
+- Archivos JSON con validación de esquema.  
+
+**P16. ¿Cómo aseguras la calidad y consistencia?**  
+- Validación de entrada y pruebas unitarias.  
+
+---
+
+## 6i) Integración de Sistemas  
+**P17. ¿Cómo se integran los sistemas y datos?**  
+- Exportación de tareas a Excel/ERP.  
+
+**P18. ¿Qué mejoras de interoperabilidad propones?**  
+- API RESTful con OAuth2.  
+
+---
+
+## 6j) Documentación de Cambios  
+**P19. ¿Cómo se documentan los cambios?**  
+- Registro de cambios en `docs/devlog.md`.  
+
+**P20. ¿Cómo se utiliza el devlog?**  
+- Publicaciones semanales en LinkedIn vinculadas desde la wiki.  
+
+---
+
+## 6k) Recursos Humanos  
+**P21. ¿Qué habilidades clave se requieren?**  
+- JavaScript, diseño de API, validación de JSON.  
+
+**P22. ¿Qué estrategias de capacitación propones?**  
+- Guía de incorporación en la wiki; talleres mensuales de revisión de código.  
+
 ---
 
 ## **Cómo Probar el Proyecto**  
