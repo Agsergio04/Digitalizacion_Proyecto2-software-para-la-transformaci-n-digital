@@ -6,7 +6,7 @@ Cada sección empieza con la fecha ISO (YYYY‑MM‑DD) y la versión (o “unre
 - **Initial release**: Basic CRUD for tasks, filtering by status and priority.  
 - Added JSDoc comments to all controllers.  
 - Published GitHub Pages site under `/docs`.  
-- Linked LinkedIn post: https://www.linkedin.com/… :contentReference[oaicite:1]{index=1}  
+- Linked LinkedIn post: --Not aviable now 
 
 ## 2025‑04‑20 — Unreleased  
 - Implemented task‑due‑date notifications (email).  
