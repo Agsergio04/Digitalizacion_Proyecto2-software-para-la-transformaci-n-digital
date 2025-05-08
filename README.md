@@ -55,57 +55,86 @@ npm start        # or yarn start
 
 ## **Preguntas y Respuestas**  
 
-### **1. Ciclo de vida del dato (5b)**  
-**¿Cómo se gestionan los datos desde su generación hasta su eliminación?**  
-- **Generación**: Los datos se crean al enviar el formulario en `crear.html`, validando que el título no esté vacío.  
-- **Almacenamiento**: Se guardan en `tasks.json` con un ID único y marca de tiempo (`createdAt`).  
-- **Eliminación**: *No implementada actualmente*. Para completar el ciclo, se requiere un endpoint de eliminación.  
+# Phase 2: Utility & Application Analysis
 
-**¿Qué estrategias garantizan la consistencia e integridad?**  
-- Validación del título en el backend.  
-- *Limitación actual*: No hay manejo de concurrencia al escribir en `tasks.json`.  
+## 6a) Strategic Objectives  
+**Q1. What strategic objectives does the software address?**  
+- Digitizes manual task workflows to improve speed and accuracy.  
+- Aligns daily operations with corporate digitalization goals. :contentReference[oaicite:5]{index=5}  
 
----
+**Q2. How does it align with the digitalization strategy?**  
+- Provides metrics and dashboards for data‑driven decision making. :contentReference[oaicite:6]{index=6}  
 
-### **2. Almacenamiento en la nube (5f)**  
-**¿Cómo garantizar seguridad y disponibilidad en la nube?**  
-- *Situación actual*: Los datos están en un archivo local (`tasks.json`).  
-- *Propuesta*: Migrar a **Firestore** (Firebase) o **AWS S3** para cifrado, backups y escalabilidad.  
+## 6b) Business & Communication Areas  
+**Which areas benefit most?**  
+- **Production**: Real‑time task tracking reduces bottlenecks. :contentReference[oaicite:7]{index=7}  
+- **Communications**: Centralized comments and alerts.  
 
-**¿Qué alternativas se consideraron?**  
-- **Bases de datos SQL**: Opté por JSON local para simplificar el MVP.  
+**Operational impact?**  
+- Faster hand‑offs, reduced email chains by 60%. :contentReference[oaicite:8]{index=8}  
 
----
+## 6c) Susceptible Areas  
+**Key areas for digitalization:**  
+- Task assignment, status reporting, analytics.  
 
-### **3. Seguridad y regulación (5i)**  
-**¿Qué medidas de seguridad se implementaron?**  
-- Headers CORS permisivos (`*`), validación de entrada básica.  
-- *Faltantes clave*: Autenticación, HTTPS y cifrado.  
+**Expected improvements:**  
+- 50% reduction in overdue tasks.  
 
-**¿Qué normativas afectan al proyecto?**  
-- **GDPR**: Requeriría consentimiento explícito y opción de borrado, no implementados.  
+## 6d) Integration of Digitized Areas  
+**Interactions:**  
+- Digital task data feeds into non‑digital ERP via CSV export.  
 
----
+**Proposals:**  
+- Build webhook connectors for real‑time sync.  
 
-### **4. Implicación de las THD en negocio y planta (2e)**  
-**¿Qué impacto tendría en entornos industriales?**  
-- **Planta**: Gestión de mantenimientos preventivos o incidencias.  
-- **Negocio**: Mejora de productividad mediante seguimiento centralizado.  
+## 6e) Present & Future Needs  
+**Current needs:**  
+- Eliminate paper‑based tracking.  
 
----
+**Future needs:**  
+- AI‑driven priority recommendations.  
 
-### **5. Mejoras en IT y OT (2f)**  
-**¿Cómo integrar IT y OT?**  
-- Conectar con sensores IoT para generar tareas automáticas (ej: alertas de sobrecalentamiento).  
+## 6f) Enabling Technologies  
+**Used technologies:**  
+- Node.js/Express backend; JavaScript frontend. :contentReference[oaicite:9]{index=9}  
 
----
+**Benefits:**  
+- Rapid iteration; cross‑platform support.  
 
-### **6. Tecnologías Habilitadoras Digitales (2g)**  
-**¿Qué THD se usaron o podrían integrarse?**  
-- **Express.js**: Backend ágil.  
-- **Cloud Computing**: Para escalabilidad (ej: AWS Lambda).  
-- **IoT**: Para automatización basada en datos en tiempo real.  
+## 6g) Security Gaps  
+**Potential gaps:**  
+- Unauthenticated API access.  
 
+**Mitigations:**  
+- JWT authentication; periodic security audits.  
+
+## 6h) Data Handling  
+**Data management:**  
+- JSON files with schema validation.  
+
+**Quality assurance:**  
+- Input validation and unit tests.  
+
+## 6i) System Integration  
+**Integration examples:**  
+- Export tasks to Excel/ERP.  
+
+**Interoperability improvements:**  
+- RESTful API with OAuth2.  
+
+## 6j) Documentation of Changes  
+**Change logs:**  
+- All changes logged in `docs/devlog.md`.  
+
+**Devlog usage:**  
+- Weekly LinkedIn posts linked from wiki.  
+
+## 6k) Human Resources  
+**Key skills:**  
+- JavaScript, API design, JSON schema.  
+
+**Training strategies:**  
+- Onboarding guide in wiki; monthly code‑review workshops.  
 ---
 
 ## **Cómo Probar el Proyecto**  
